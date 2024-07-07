@@ -69,10 +69,10 @@ async def main():
     # }
     
     inputs = {
-        "current_month": nillion.Integer(current_month),
-        "bid_winner_0": nillion.Integer(-1),
-        "bid_winner_1": nillion.Integer(-1),
-        "bid_winner_2": nillion.Integer(-1),
+        # "current_month": nillion.Integer(current_month),
+        # "bid_winner_0": nillion.SecretUnsignedInteger(1),
+        # "bid_winner_1": nillion.SecretUnsignedInteger(1),
+        # "bid_winner_2": nillion.SecretUnsignedInteger(1),
         "bid_p0": nillion.SecretUnsignedInteger(100),
         "bid_p1": nillion.SecretUnsignedInteger(200),
         "bid_p2": nillion.SecretUnsignedInteger(150),
